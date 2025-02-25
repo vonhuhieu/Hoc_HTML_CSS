@@ -55,7 +55,8 @@ html {
 }
 
 #slider {
-
+    min-height: 500px;
+    background-color: #333;
 }
 
 #content {
