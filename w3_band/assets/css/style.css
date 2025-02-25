@@ -44,6 +44,11 @@ html {
     padding: 0 24px;
 }
 
+#nav li:hover a {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
 #nav .subnav {
     display: none;
 }
