@@ -63,6 +63,7 @@ html {
     /* display: none; */
     position: absolute;
     background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 #nav .subnav a {
