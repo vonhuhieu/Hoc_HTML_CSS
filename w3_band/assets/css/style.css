@@ -42,6 +42,7 @@ html {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
+    display: inline-block;
 }
 
 #nav li:hover a {
