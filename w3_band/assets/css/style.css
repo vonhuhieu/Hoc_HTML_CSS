@@ -271,11 +271,13 @@ html {
 }
 
 .place-time {
-
+    margin-top: 15px;
+    color: #757575;
 }
 
 .place-desc {
-
+    margin-top: 15px;
+    line-height: 1.4;
 }
 
 .place-buy-btn {
