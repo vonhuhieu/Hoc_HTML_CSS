@@ -29,6 +29,10 @@ html {
     background-color: #000;
 }
 
+#nav {
+    display: inline-block;
+}
+
 #nav, .subnav {
     list-style-type: none;
 }
@@ -81,6 +85,15 @@ html {
 
 #nav .nav-arrow-down {
     font-size: 14px;
+}
+
+#header .search-btn {
+    float: right;
+}
+
+#header .search-icon {
+    color: #fff;
+    font-size: 20px;
 }
 
 #slider {
