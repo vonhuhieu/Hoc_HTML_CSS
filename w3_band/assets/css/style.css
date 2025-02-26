@@ -143,6 +143,18 @@ html {
 
 }
 
+#content .content-section {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .section-heading,
+#content .section-sub-heading {
+    text-align: center;
+}
+
 #footer {
 
 }
