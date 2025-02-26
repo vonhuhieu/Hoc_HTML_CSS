@@ -20,6 +20,10 @@ html {
     3. Màu sắc
     4. Kiểu dáng (kiểu chữ, hình tròn, vuông, ...)
 */
+.clear {
+    clear: both;
+}
+
 #main {
 
 }
