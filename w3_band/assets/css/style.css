@@ -241,7 +241,7 @@ html {
 
 /* Places */
 .places-list {
-
+    margin-top: 32px;
 }
 
 .place-item {
