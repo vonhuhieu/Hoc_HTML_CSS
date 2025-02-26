@@ -116,6 +116,9 @@ html {
 
 #slider .text-content {
     position: absolute;
+    bottom: 47px;
+    color: #fff;
+    
 }
 
 #slider .text-heading {
