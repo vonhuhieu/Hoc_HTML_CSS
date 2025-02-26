@@ -1,1 +1,0 @@
-File chứa hình ảnh đặt trong thư mục này
