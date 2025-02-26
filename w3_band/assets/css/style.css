@@ -252,6 +252,7 @@ html {
 
 .place-img {
     width: 100%;
+    display: block;
 }
 
 .place-img:hover {
@@ -259,7 +260,7 @@ html {
 }
 
 .place-body {
-
+    background-color: #fff;
 }
 
 .place-heading {
