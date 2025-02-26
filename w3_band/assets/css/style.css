@@ -213,6 +213,8 @@ html {
 
 .tickets-list li {
     font-size: 15px;
+    padding: 11px 16px;
+    border: 1px solid #ddd;
 }
 
 .tickets-list .sold-out {
