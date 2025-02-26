@@ -169,6 +169,8 @@ html {
     margin-top: 25px;
     font-size: 15px;
     text-align: justify;
+    line-height: 1.4; /* tiếng Anh */
+    /* line-height: 1.6; tiếng Việt */
 }
 
 #footer {
