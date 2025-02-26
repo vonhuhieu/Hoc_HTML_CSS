@@ -219,7 +219,10 @@ html {
 }
 
 .tickets-list .sold-out {
-
+    background-color: #f44336;
+    color: #fff;
+    padding: 3px 8px;
+    margin-left: 16px;
 }
 
 .tickets-list .quantity {
