@@ -207,6 +207,7 @@ html {
 }
 
 .tickets-list {
+    list-style: none;
     background-color: #fff;
     margin-top: 40px;
 }
