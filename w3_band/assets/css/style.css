@@ -160,6 +160,12 @@ html {
 #content .section-sub-heading {
     text-align: center;
     font-size: 15px;
+    margin-top: 25px;
+}
+
+#content .about-text {
+    margin-top: 25px;
+    font-size: 15px;
 }
 
 #footer {
