@@ -281,7 +281,12 @@ html {
 }
 
 .place-buy-btn {
-
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
 }
 /* Footer Section */
 #footer {
