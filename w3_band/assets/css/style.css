@@ -241,12 +241,13 @@ html {
 
 /* Places */
 .places-list {
-    margin-top: 32px;
+    margin: 32px -8px 0;
 }
 
 .place-item {
     float: left;
     width: calc(100% / 3);
+    padding: 0 8px;
 }
 
 .place-img {
