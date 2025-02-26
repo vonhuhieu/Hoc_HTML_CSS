@@ -205,6 +205,19 @@ html {
 .tour-section {
     background-color: #000;
 }
+
+.tickets-list {
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.tickets-list .sold-out {
+
+}
+
+.tickets-list .quantity {
+    
+}
 /* Footer Section */
 #footer {
 
