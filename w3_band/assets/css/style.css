@@ -254,6 +254,10 @@ html {
     width: 100%;
 }
 
+.place-img:hover {
+    opacity: 0.6;
+}
+
 .place-body {
 
 }
