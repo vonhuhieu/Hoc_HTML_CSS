@@ -173,6 +173,15 @@ html {
     /* line-height: 1.6; tiếng Việt */
 }
 
+#content .members-list {
+    margin-top: 48px;
+}
+
+#content .member-item {
+    float: left;
+    width: calc(100% / 3);
+}
+
 #footer {
 
 }
