@@ -245,7 +245,8 @@ html {
 }
 
 .place-item {
-
+    float: left;
+    width: calc(100% / 3);
 }
 
 .place-img {
