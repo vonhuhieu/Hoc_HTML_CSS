@@ -211,12 +211,16 @@ html {
     margin-top: 40px;
 }
 
+.tickets-list li {
+    font-size: 15px;
+}
+
 .tickets-list .sold-out {
 
 }
 
 .tickets-list .quantity {
-    
+
 }
 /* Footer Section */
 #footer {
