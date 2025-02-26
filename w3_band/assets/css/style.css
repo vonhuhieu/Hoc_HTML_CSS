@@ -261,10 +261,13 @@ html {
 
 .place-body {
     background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
 }
 
 .place-heading {
-
+    font-size: 15px;
+    font-weight: 600;
 }
 
 .place-time {
