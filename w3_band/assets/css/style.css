@@ -24,6 +24,10 @@ html {
     clear: both;
 }
 
+.text-white {
+    color: #fff !important;
+}
+
 #main {
 
 }
