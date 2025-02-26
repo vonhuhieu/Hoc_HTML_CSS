@@ -118,15 +118,24 @@ html {
     position: absolute;
     bottom: 47px;
     color: #fff;
-    
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* Cách 2
+    width: 100%; */
+    /* Cách 3
+    left: 0;
+    right: 0; */
 }
 
 #slider .text-heading {
-
+    font-weight: 500;
+    font-size: 24px;
 }
 
 #slider .text-description {
-
+    font-size: 15px;
+    margin-top: 25px;
 }
 
 #content {
