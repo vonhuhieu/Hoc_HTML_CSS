@@ -89,11 +89,18 @@ html {
 
 #header .search-btn {
     float: right;
+    padding: 0 21px;
+}
+
+#header .search-btn:hover {
+    background-color: #f44336!important;
+    cursor: pointer;
 }
 
 #header .search-icon {
     color: #fff;
     font-size: 20px;
+    line-height: 46px;
 }
 
 #slider {
