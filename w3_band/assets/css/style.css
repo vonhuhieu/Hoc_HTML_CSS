@@ -311,3 +311,9 @@ html {
     align-items: center;
     justify-content: center;
 }
+
+.modal-container {
+    width: 900px;
+    background-color: #fff;
+    min-height: 200px;
+}
