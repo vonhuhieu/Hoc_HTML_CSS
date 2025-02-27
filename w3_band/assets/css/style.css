@@ -322,6 +322,7 @@ html {
 
 .contact-info {
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .contact-info i[class*="ti-"] {
