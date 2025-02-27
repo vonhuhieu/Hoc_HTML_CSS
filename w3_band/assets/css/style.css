@@ -41,6 +41,10 @@ html {
     padding-right: 8px;
 }
 
+.col-full {
+    width: 100%;
+}
+
 .col-half {
     width: 50%;
 }
@@ -311,6 +315,14 @@ html {
     cursor: pointer;
 }
 
+/* Contact form */
+.contact-content {
+    margin-top: 48px;
+}
+
+.contact-info {
+    font-size: 18px;
+}
 /* Footer Section */
 #footer {
 
