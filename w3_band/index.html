@@ -131,7 +131,7 @@
         </div>
     </div>
 
-    <div class="modal">
+    <div class="modal js-modal">
         <div class="modal-container">
             <div class="modal-close js-modal-close">
                 <i class="ti-close"></i>
@@ -170,7 +170,7 @@
         // open modal
         const buyBtns = document.querySelectorAll('.js-buy-ticket'); // lấy tất cả phần tử có class là js-buy-ticket
 
-        const modal = document.querySelector('.modal');
+        const modal = document.querySelector('.js-modal');
 
         function showBuyTicketsModal() {
             modal.classList.add('open');
