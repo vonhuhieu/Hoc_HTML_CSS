@@ -317,3 +317,13 @@ html {
     background-color: #fff;
     min-height: 200px;
 }
+
+.modal-header {
+    background-color: #009688 !important;
+    height: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
