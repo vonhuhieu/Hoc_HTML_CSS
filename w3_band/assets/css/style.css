@@ -35,6 +35,12 @@ html {
     margin-right: -8px;
 }
 
+.row::after {
+    content: "";
+    display: block;
+    clear: both; /* clear chỉ được dùng khi có display */
+}
+
 .col {
     float: left;
     padding-left: 8px;
@@ -51,6 +57,10 @@ html {
 
 .col-third {
     width: calc(100% / 3);
+}
+
+.mt-8 {
+    margin-top: 8px !important;
 }
 
 .text-center {
@@ -329,6 +339,17 @@ html {
     width: 30px;
     display: inline-block;
 }
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
 /* Footer Section */
 #footer {
 
