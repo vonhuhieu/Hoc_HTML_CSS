@@ -316,6 +316,7 @@ html {
     width: 900px;
     background-color: #fff;
     min-height: 200px;
+    position: relative;
 }
 
 .modal-header {
@@ -326,4 +327,22 @@ html {
     justify-content: center;
     font-size: 30px;
     color: #fff;
+}
+
+.modal-heading-icon {
+    padding: 16px;
+}
+
+.modal-close:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.8;
 }
