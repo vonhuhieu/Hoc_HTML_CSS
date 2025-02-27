@@ -317,6 +317,7 @@ html {
     background-color: #fff;
     min-height: 200px;
     position: relative;
+    max-width: calc(100% - 32px);
 }
 
 .modal-header {
@@ -380,4 +381,13 @@ html {
     text-transform: uppercase;
     border: none;
     font-size: 15px;
+}
+
+.modal-footer {
+    padding: 16px;
+    text-align: right;
+}
+
+.modal-footer a {
+    color: #2196F3;
 }
