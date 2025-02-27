@@ -355,6 +355,7 @@ html {
 .modal-label {
     display: block;
     font-size: 15px;
+    margin-bottom: 12px;
 }
 
 .modal-input {
@@ -362,4 +363,5 @@ html {
     border: 1px solid #ccc;
     padding: 10px;
     font-size: 15px;
+    margin-bottom: 24px;
 }
