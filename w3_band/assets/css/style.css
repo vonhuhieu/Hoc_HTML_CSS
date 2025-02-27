@@ -365,3 +365,19 @@ html {
     font-size: 15px;
     margin-bottom: 24px;
 }
+
+#buy-tickets:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#buy-tickets {
+    background-color: #009688;
+    padding: 18px;
+    width: 100%;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    border: none;
+    font-size: 15px;
+}
