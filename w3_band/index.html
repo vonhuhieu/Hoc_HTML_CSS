@@ -167,8 +167,27 @@
     </div>
 
     <script>
+        // open modal
         const buyBtns = document.querySelectorAll('.js-buy-ticket'); // lấy tất cả phần tử có class là js-buy-ticket
-        
+
+        const modal = document.querySelector('.modal');
+
+        function showBuyTicketsModal() {
+            modal.classList.add('open');
+        }
+
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTicketsModal);
+        }
+
+        // close modal
+        const modalClose = document.querySelector('.modal-close');
+
+        function closeBuyTicketsModal() {
+            modal.classList.remove('open');
+        }
+
+        modalClose.addEventListener('click', closeBuyTicketsModal);
     </script>
 </body>
 </html>
