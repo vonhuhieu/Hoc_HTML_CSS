@@ -71,6 +71,26 @@ html {
     text-align: center;
 }
 
+.btn {
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 11px 16px;
+    display: inline-block;
+    margin-top: 15px;
+    border: none;
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.pull-right {
+    float: right !important;
+}
+
 /* Main */
 #main {
 
@@ -199,7 +219,7 @@ html {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 64px 0;
+    padding: 64px 0 112px;
 }
 
 #content .section-heading {
@@ -242,7 +262,6 @@ html {
 /* Tour Section */
 .tour-section {
     background-color: #000;
-    padding-bottom: 48px;
 }
 
 /* Tickets */
@@ -313,22 +332,6 @@ html {
     line-height: 1.4;
 }
 
-.place-buy-btn {
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    padding: 11px 16px;
-    display: inline-block;
-    margin-top: 15px;
-    border: none;
-}
-
-.place-buy-btn:hover {
-    color: #000;
-    background-color: #ccc;
-    cursor: pointer;
-}
-
 /* Contact form */
 .contact-content {
     margin-top: 48px;
@@ -354,13 +357,6 @@ html {
     width: 100%;
 }
 
-.contact-form .form-submit-btn {
-    background-color: #000;
-    color: #fff;
-    border: none;
-    padding: 12px 10px;
-    float: right;
-}
 
 /* Footer Section */
 #footer {
