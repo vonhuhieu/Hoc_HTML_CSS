@@ -357,10 +357,15 @@ html {
     width: 100%;
 }
 
+/* Map */
+.map-section img {
+    width: 100%;
+}
 
 /* Footer Section */
 #footer {
-
+    padding: 64px 16px;
+    text-align: center;
 }
 
 .modal {
