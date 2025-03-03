@@ -17,4 +17,9 @@
     #header .search-btn {
         display: none;
     }
+
+    .header-mobile-js {
+        height: auto !important;
+        overflow: visible !important;
+    }
 }

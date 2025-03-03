@@ -12,7 +12,7 @@
 </head>
 <body>
     <div id="main">
-        <div id="header">
+        <div id="header" class="header-js">
             <!-- Begin: nav -->
             <ul id="nav">
                 <li><a href="#">Home</a></li>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="mobile-menu-btn">
-                <i class="menu-icon ti-menu"></i>
+                <i id="mobile-menu" class="menu-icon ti-menu menu-icon-mobile-js"></i>
             </div>
             <!-- End: Search Button -->
         </div>
@@ -246,6 +246,28 @@
         }
 
         modalContainer.addEventListener('click', fixCloseModalBug);
+
+        // đóng, mở header trên mobile
+
+        // Cách 1
+        // const headerElement = document.querySelector(".menu-icon-mobile-js");
+        // const header = document.querySelector(".header-js");
+        // headerElement.addEventListener("click", () => {
+        //     header.classList.toggle("header-mobile-js");
+        // });
+
+        // Cách 2
+        const header = document.getElementById("header");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const headerHeight = header.clientHeight;
+        mobileMenu.onclick = function() {
+            const isClosed = header.clientHeight === headerHeight;
+            if (isClosed === true) {
+                header.style.height = "auto";
+            } else {
+                header.style.height = null;
+            }
+        }
     </script>
 </body>
 </html>
