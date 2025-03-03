@@ -286,6 +286,15 @@
                 }
             }
         }
+
+        // fix lỗi click vào subnav thì bị quay lại đầu trang
+        const subnavItems = document.querySelectorAll(".subnav a[href*='#']");
+        for (let i = 0; i < subnavItems.length; ++i) {
+            let subnavItem = subnavItems[i];
+            subnavItem.onclick = function(event) {
+                event.preventDefault();
+            }
+        }
     </script>
 </body>
 </html>
