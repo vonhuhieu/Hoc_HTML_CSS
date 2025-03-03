@@ -10,6 +10,12 @@
 
 /* Mobile */
 @media only screen and (max-width: 739px) {
+
+    /* Dùng chung */
+    .s-col-full {
+        width: 100%;
+    }
+
     #header {
         overflow: hidden;
     }
@@ -53,9 +59,8 @@
         padding: 5px 41px;
     }
 
-    #content .member-item {
-        margin-top: 30px;
-        width: 100%;
+    #slider .text-content {
+        display: none;
     }
 
     #content .member-img {
