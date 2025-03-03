@@ -22,6 +22,10 @@
         display: none;
     }
 
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
     .header-mobile-js {
         height: auto !important;
         overflow: visible !important;
