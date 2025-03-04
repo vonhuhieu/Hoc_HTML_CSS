@@ -1,10 +1,10 @@
 /* PC */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64em) {
 
 }
 
 /* Tablet & Mobile */
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 63.9375em) {
     #nav .subnav a {
         padding: 5px 12px;
     }
@@ -41,12 +41,12 @@
 }
 
 /* Tablet */
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
 
 }
 
 /* Mobile */
-@media only screen and (max-width: 739px) {
+@media only screen and (max-width: 46.1875em) {
 
     /* Dùng chung */
     .s-full-width,
