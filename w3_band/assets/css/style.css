@@ -447,7 +447,7 @@ html {
     background-color: #fff;
     min-height: 200px;
     position: relative;
-    max-width: calc(100% - 32px);
+    max-width: calc(100% - 64px);
     animation: modalFadeIn ease 0.5s;
 }
 
