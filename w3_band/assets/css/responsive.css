@@ -113,3 +113,10 @@
         margin-top: 32px;
     }
 }
+
+@media screen and (max-height: 500px) {
+    .modal-container {
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+}
